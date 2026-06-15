@@ -1,0 +1,21 @@
+# Deep Learning & NLP Core
+torch>=2.0.0
+torchao>=0.16.0
+transformers>=4.30.0
+peft>=0.4.0
+accelerate>=0.21.0
+
+# Data Manipulation & Metrics
+pandas>=2.0.0
+numpy>=1.24.0
+scikit-learn>=1.2.0
+scipy>=1.10.0
+
+# Embedding & Clustering
+sentence-transformers>=2.2.2
+umap-learn>=0.5.3
+hdbscan>=0.8.33
+
+# Dashboard & Visualizations
+streamlit>=1.28.0
+plotly>=5.14.0
