@@ -47,8 +47,3 @@ python predict.py
 
 5. To launch the interactive dashboard locally:
 streamlit run app.py
-
-## Demo
-
-A full walkthrough of the dashboard, including a live adversarial ticket test and an explanation of the pseudo-label strategy, can be viewed here: 
-[Insert YouTube Link Here]
