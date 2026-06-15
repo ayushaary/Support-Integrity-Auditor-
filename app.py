@@ -14,7 +14,7 @@ from transformers import AutoModelForSequenceClassification, AutoTokenizer
 # Page setup
 # ---------------------------
 st.set_page_config(
-    page_title="SIA — Support Integrity Auditor",
+    page_title="Support Integrity Auditor",
     layout="wide",
     page_icon="🔍",
 )
@@ -130,7 +130,7 @@ st.markdown(
 PMAP = {"Low": 0, "Medium": 1, "High": 2, "Critical": 3}
 RPMAP = {v: k for k, v in PMAP.items()}
 BASE = "microsoft/deberta-v3-small"
-MDL = Path("models/sia_model")
+MDL = Path("sia_models")
 OUT = Path("outputs")
 
 ESCA_EV = [
@@ -518,7 +518,7 @@ st.markdown(
 )
 
 if not model_ready:
-    st.error("⚠️ Model not found at `models/sia_model/best`. Please ensure you have run the training pipeline first.")
+    st.error("⚠️ Model not found at `sia_models/best`. Please ensure you have run the training pipeline first.")
     st.stop()
 
 tab1, tab2, tab3 = st.tabs(["🎫 Single Ticket", "🚨 Intelligence Center", "📊 Executive Dashboard"])
