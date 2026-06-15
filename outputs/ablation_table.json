@@ -1,0 +1,22 @@
+{
+  "Keywords": {
+    "spearman_rho": 0.4046,
+    "acc_within_1": 0.8028,
+    "fusion_weight_pct": 33.7
+  },
+  "Time Anomalies": {
+    "spearman_rho": 0.1787,
+    "acc_within_1": 0.7723,
+    "fusion_weight_pct": 6.0
+  },
+  "Lexical/CSAT": {
+    "spearman_rho": 0.2046,
+    "acc_within_1": 0.8064,
+    "fusion_weight_pct": 3.9
+  },
+  "Semantic Group": {
+    "spearman_rho": 0.4151,
+    "acc_within_1": 0.8925,
+    "fusion_weight_pct": 56.4
+  }
+}
