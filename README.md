@@ -47,3 +47,4 @@ python predict.py
 
 5. To launch the interactive dashboard locally:
 streamlit run app.py
+or https://marssia.streamlit.app/
